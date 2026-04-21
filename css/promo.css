@@ -28,6 +28,13 @@
   gap: 12px;
 }
 
+.promo__info-description {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+
 .promo__info-text {
   text-align: center;
 }
