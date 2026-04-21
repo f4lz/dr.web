@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(22, 23, 22);
+}
+
+.wrapper {
+  position: relative;
+  color: var(--primary-color);
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: numbers 2s linear infinite;
+  z-index: -1;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover, 100%;
+  background-position: center center;
+  z-index: -1;
+  animation: lava 2s linear infinite;
+}
+
+.main {
+  max-width: 805px;
+  margin: 0 auto;
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+@keyframes numbers {
+  0% {
+    background-image: url(../image/animations/background/variant2.png);
+  }
+  25% {
+    background-image: url(../image/animations/background/variant3.png);
+  }
+  75% {
+    background-image: url(../image/animations/background/default.png);
+  }
+  100% {
+    background-image: url(../image/animations/background/variant2.png);
+  }
+}
+
+@keyframes lava {
+  0% {
+    background-image: url(../image/animations/lava/default.png);
+  }
+  25% {
+    background-image: url(../image/animations/lava/variant3.png);
+  }
+  75% {
+    background-image: url(../image/animations/lava/variant2.png);
+  }
+  100% {
+    background-image: url(../image/animations/lava/default.png);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 64px 100px;
+  }
+
+  .wrapper::before {
+    background-size: auto auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    padding: 48px 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    padding: 40px 12px;
+  }
+}

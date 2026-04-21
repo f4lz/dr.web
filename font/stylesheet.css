@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'FreeSetDemiC';
+    src: url('FreeSetDemiC-Italic.eot');
+    src: local('FreeSetDemiC Italic'), local('FreeSetDemiC-Italic'),
+        url('FreeSetDemiC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetDemiC-Italic.woff2') format('woff2'),
+        url('FreeSetDemiC-Italic.woff') format('woff'),
+        url('FreeSetDemiC-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetBoldC';
+    src: url('FreeSetBoldC-Italic.eot');
+    src: local('FreeSetBoldC Italic'), local('FreeSetBoldC-Italic'),
+        url('FreeSetBoldC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetBoldC-Italic.woff2') format('woff2'),
+        url('FreeSetBoldC-Italic.woff') format('woff'),
+        url('FreeSetBoldC-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetDemiC';
+    src: url('FreeSetDemiC.eot');
+    src: local('FreeSetDemiC'),
+        url('FreeSetDemiC.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetDemiC.woff2') format('woff2'),
+        url('FreeSetDemiC.woff') format('woff'),
+        url('FreeSetDemiC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetExtraBoldC';
+    src: url('FreeSetExtraBoldC.eot');
+    src: local('FreeSetExtraBoldC'),
+        url('FreeSetExtraBoldC.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetExtraBoldC.woff2') format('woff2'),
+        url('FreeSetExtraBoldC.woff') format('woff'),
+        url('FreeSetExtraBoldC.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetBoldC';
+    src: url('FreeSetBoldC.eot');
+    src: local('FreeSetBoldC'),
+        url('FreeSetBoldC.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetBoldC.woff2') format('woff2'),
+        url('FreeSetBoldC.woff') format('woff'),
+        url('FreeSetBoldC.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetExtraBoldC';
+    src: url('FreeSetExtraBoldC-Italic.eot');
+    src: local('FreeSetExtraBoldC Italic'), local('FreeSetExtraBoldC-Italic'),
+        url('FreeSetExtraBoldC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetExtraBoldC-Italic.woff2') format('woff2'),
+        url('FreeSetExtraBoldC-Italic.woff') format('woff'),
+        url('FreeSetExtraBoldC-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetC';
+    src: url('FreeSetC-Italic.eot');
+    src: local('FreeSetC Italic'), local('FreeSetC-Italic'),
+        url('FreeSetC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetC-Italic.woff2') format('woff2'),
+        url('FreeSetC-Italic.woff') format('woff'),
+        url('FreeSetC-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetC';
+    src: url('FreeSetC.eot');
+    src: local('FreeSetC'),
+        url('FreeSetC.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetC.woff2') format('woff2'),
+        url('FreeSetC.woff') format('woff'),
+        url('FreeSetC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetLightC';
+    src: url('FreeSetLightC.eot');
+    src: local('FreeSetLightC'),
+        url('FreeSetLightC.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetLightC.woff2') format('woff2'),
+        url('FreeSetLightC.woff') format('woff'),
+        url('FreeSetLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSetLightC';
+    src: url('FreeSetLightC-Italic.eot');
+    src: local('FreeSetLightC Italic'), local('FreeSetLightC-Italic'),
+        url('FreeSetLightC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreeSetLightC-Italic.woff2') format('woff2'),
+        url('FreeSetLightC-Italic.woff') format('woff'),
+        url('FreeSetLightC-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,16 @@
+input {
+  border: 1px var(--border-color) solid;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border: 1px var(--primary-text-color) solid;
+}
+
+.input-error {
+  border: 1px var(--error-color) solid;
+}

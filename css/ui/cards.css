@@ -1,0 +1,11 @@
+.card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(36px);
+  border: 1px solid transparent;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
+}

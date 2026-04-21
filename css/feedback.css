@@ -1,0 +1,36 @@
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #212121;
+  background: linear-gradient(
+    45deg,
+    rgba(33, 33, 33, 1) 21%,
+    rgba(87, 87, 87, 1) 100%
+  );
+  box-sizing: border-box;
+  max-width: 668px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 24px 48px;
+  color: var(--primary-color);
+}
+
+.feedback__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media screen and (max-width: 680px) {
+  .feedback {
+    flex-wrap: wrap;
+    padding: 32px 24px;
+    gap: 48px;
+  }
+
+  .feedback__image {
+    margin-left: auto;
+  }
+}

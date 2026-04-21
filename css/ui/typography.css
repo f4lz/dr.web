@@ -1,0 +1,58 @@
+h1 {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: 100%;
+  font-family: "FreeSet";
+}
+
+h2 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  font-family: "FreeSet";
+  line-height: 30px;
+}
+
+h3 {
+  font-size: var(--text-md);
+  font-weight: 600;
+  font-family: "FreeSet";
+  line-height: 30px;
+}
+
+h4 {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+
+p {
+  font-size: var(--text-xs);
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+}
+
+label {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: var(--text-lg);
+    font-weight: 800;
+    line-height: 100%;
+  }
+
+  h2 {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    line-height: 22px;
+  }
+}

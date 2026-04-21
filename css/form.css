@@ -1,0 +1,65 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 15px;
+  padding: 64px 48px;
+  box-sizing: border-box;
+  max-width: 680px;
+  background-color: var(--primary-color);
+  margin: 48px auto 0;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form__inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form__alert-email {
+  display: none;
+  padding: 16px 24px;
+  border-radius: 10px;
+  color: var(--primary-text-color);
+  border: 1px var(--error-color) solid;
+  background-color: var(--surface-tertiary-color);
+}
+
+.show {
+  display: block;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--text-secondary-color);
+}
+
+.form__political {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form__political-alert {
+  color: var(--disabled-color);
+}
+
+.form__political-acception {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form__political-acception-text {
+  color: var(--primary-text-color);
+}
+
+.error-message {
+  color: var(--error-color);
+}

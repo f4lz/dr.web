@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'FreeSet';
+  src: url('../../font/FreeSetDemiC.woff2') format('woff2'),
+       url('../../font/FreeSetDemiC.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreeSet';
+  src: url('../../font/FreeSetExtraBoldC.woff2') format('woff2'),
+       url('../../font/FreeSetExtraBoldC.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,31 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.button-primary {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--accent-color);
+}
+
+.button-primary--disabled {
+  pointer-events: none;
+  background-color: var(--surface-tertiary-color);
+  color: var(--disabled-color);
+}
+
+.button-secondary {
+  padding: 8px 24px;
+  gap: 12px;
+  background: transparent;
+  border-radius: 6px;
+  border: 2px var(--primary-color) solid;
+  font-size: var(--text-sm);
+  text-wrap: nowrap;
+}

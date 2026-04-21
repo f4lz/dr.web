@@ -1,0 +1,28 @@
+.checkbox input {
+  display: none;
+}
+
+.checkmark {
+  width: 16px;
+  height: 16px;
+  background: var(--secondary-color);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.checkbox input:checked + .checkmark {
+  background: var(--accent-color);
+}
+
+.icon {
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.checkbox input:checked + .checkmark .icon {
+  opacity: 1;
+}
